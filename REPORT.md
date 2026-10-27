@@ -55,7 +55,5 @@
 ## Запуск
 
 ```
-python postprocess.py data/test_predictions.jsonl answers.jsonl   # решение (CPU, без интернета, только stdlib)
-python evaluate.py train_answers.jsonl data/train_labels.jsonl    # проверка на train
-python tune.py [--sweep]                                          # диагностика и перебор порогов
+python postprocess.py data/test_predictions.jsonl answers.jsonl   # CPU, без интернета, только stdlib
 ```

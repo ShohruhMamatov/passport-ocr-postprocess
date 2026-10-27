@@ -1,3 +1,5 @@
 __pycache__/
 data/
 train_answers.jsonl
+TASK.md
+evaluate.py
